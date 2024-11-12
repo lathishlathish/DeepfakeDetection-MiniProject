@@ -1,59 +1,54 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## Detecting Digital Fraud: Real-Time Multi-Model Deepfake Identification
+Real-time deepfake detection system using multi-model analysis to identify digital fraud, enhancing the accuracy and reliability of content verification across media platforms.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
-
+This project addresses the growing challenge of deepfake detection in digital media by developing a real-time, multi-modal system capable of identifying synthetic content. The system utilizes a ResNext Convolutional Neural Network (CNN) for frame-level feature extraction, followed by an LSTM-based Recurrent Neural Network (RNN) to analyze temporal patterns across video frames. By combining these two models, the system effectively classifies videos as either deepfake or authentic. With OpenCV for frame processing and PyTorch for training, this approach leverages state-of-the-art deep learning techniques to detect artifacts in manipulated media, enhancing digital fraud prevention in diverse applications.
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+Here are six concise feature points for your project:
 
-## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+1.  Instantly identifies manipulated media in video content.
+2.  Combines CNN and RNN for accurate video classification.
+3.  Uses ResNext CNN for detailed feature extraction.
+4.  LSTM RNN detects inconsistencies across video frames.
+5.  Processes frames with OpenCV for efficient analysis.
+6.  Trained with PyTorch for precise and scalable deepfake detection. 
+
+## Requirements:
+* **Operating System**: Requires a 64-bit OS (Windows 10, Ubuntu 18.04 or later) compatible with deep learning frameworks.
+* **Development Environment**: Python 3.8 or later is recommended for implementing the deepfake detection system.
+* **Deep Learning Frameworks**: PyTorch for model training, with CUDA support for GPU acceleration if available.
+* **Image Processing Libraries**: OpenCV for processing video frames and performing real-time analysis.
+* **Version Control**: Git for collaborative development and version management.
+* **IDE**: Visual Studio Code (VSCode) or Jupyter Notebook for code writing, debugging, and experimentation.
+* **Additional Dependencies**: Includes scikit-learn, PyTorch (with GPU support), OpenCV, and any other required libraries for handling video and deep learning tasks.
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
-
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
-
+<img src=https://github.com/user-attachments/assets/41d92eca-1487-46ba-ad4b-68854ecceb34 width=500 height=500>
 
 ## Output
+#### Output1 - Real Video:
+<img src=https://github.com/user-attachments/assets/f48b589d-db64-4dc2-9af8-95b4a4942558 width=500 height=500>
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output2 - Fake Video:
+<img src=https://github.com/user-attachments/assets/48f956be-a827-43b6-ab4b-c37d680c4a14 width=500 height=500>
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
-
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
-
-Detection Accuracy: 96.7%
+Detection Accuracy: 97.76180%
 Note: These metrics can be customized based on your actual performance evaluations.
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+This project tackles the growing challenge of deepfake detection in digital media by developing a real-time, multi-modal system designed to identify synthetic content. The system leverages a ResNext Convolutional Neural Network (CNN) for frame-level feature extraction, followed by an LSTM-based Recurrent Neural Network (RNN) to capture and analyze temporal patterns across video frames. By combining these two advanced models, the system effectively classifies videos as either deepfake or authentic.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+Utilizing OpenCV for frame processing and PyTorch for model training, this approach incorporates cutting-edge deep learning techniques to detect artifacts in manipulated media. Its application enhances digital fraud prevention, offering valuable solutions for safeguarding authenticity in various media platforms.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+[1] Yuezun Li, Siwei Lyu, “ExposingDF Videos By Detecting Face Warping Artifacts,” in arXiv:1811.00656v3.
 
+[2] Yuezun Li, Ming-Ching Chang and Siwei Lyu “Exposing AI Created Fake Videos by Detecting Eye Blinking” in arxiv. 
 
+[3] Huy H. Nguyen , Junichi Yamagishi, and Isao Echizen “ Using capsule networks to detect forged images and videos ”. 
 
+[4] Hyeongwoo Kim, Pablo Garrido, Ayush Tewari and Weipeng Xu “Deep Video Portraits” in arXiv:1901.02212v2.
+
+[5] Umur Aybars Ciftci, ˙Ilke Demir, Lijun Yin “Detection of Synthetic Portrait Videos using Biological Signals” in arXiv:1901.02212v2.
 
