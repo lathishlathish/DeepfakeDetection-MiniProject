@@ -4,8 +4,6 @@ Real-time deepfake detection system using multi-model analysis to identify digit
 ## About
 This project addresses the growing challenge of deepfake detection in digital media by developing a real-time, multi-modal system capable of identifying synthetic content. The system utilizes a ResNext Convolutional Neural Network (CNN) for frame-level feature extraction, followed by an LSTM-based Recurrent Neural Network (RNN) to analyze temporal patterns across video frames. By combining these two models, the system effectively classifies videos as either deepfake or authentic. With OpenCV for frame processing and PyTorch for training, this approach leverages state-of-the-art deep learning techniques to detect artifacts in manipulated media, enhancing digital fraud prevention in diverse applications.
 ## Features
-Here are six concise feature points for your project:
-
 1.  Instantly identifies manipulated media in video content.
 2.  Combines CNN and RNN for accurate video classification.
 3.  Uses ResNext CNN for detailed feature extraction.
